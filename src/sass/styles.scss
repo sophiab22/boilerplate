@@ -1,0 +1,32 @@
+@import "normalize";
+@import 'abstracts/mixins'; 
+
+body {
+	// @include flex;
+	background: pink ;
+}
+
+section {
+	lost-utility: clearfix;
+}
+
+.grid-item {
+	background: #eee;
+	height: 100px;
+	margin-bottom: 20px;
+	lost-align: center;
+}
+
+.nested-grid-item {
+	background: red;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.grid-row {
+	width: 100%;
+}
+
+.grid-row div {
+	lost-column: 1/3;
+}
